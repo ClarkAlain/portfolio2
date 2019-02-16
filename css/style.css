@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  border: 0;
+  padding:0;
+  background-image: url(./images/macphoto.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: 'Open Sans', sans-serif;
+}
+.logo, .nav-right {
+  display: inline-block;
+  width: 48%;
+  text-align: center;
+}
+.logo {
+  padding-right: 7%;
+  padding-top: 10px;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.nav-right {
+
+}
+.nav-right-list {
+  display: inline-block;
+  list-style: none;
+  width: 118px;
+  font-size: 18px;
+}
+.main-top {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.main-heading {
+  font-size: 70px;
+  font-weight: bold;
+  color: #064e90;
+}
+.main-center {
+  margin: 0;
+  padding: 0;
+  font-family: courier;
+  font-size: 20px;
+  text-align: center;
+}
+.main-center-top {
+  margin: 0;
+  padding: 0;
+  padding-right: 480px;
+}
+.main-center-top> h2 {
+  margin: 0;
+  display: inline-block;
+  font-size: 20px;
+  text-align: left;
+}
+.hred {
+  color: red;
+}
+.main-center-bottom {
+  margin: 0;
+  padding: 0;
+  padding-right: 480px;
+}
+.main-center-bottom> h2  {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 20px;
+}
+.main-p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-align-last: inherit  ;
+}
