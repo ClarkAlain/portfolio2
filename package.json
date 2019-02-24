@@ -1,0 +1,24 @@
+{
+  "name": "p2",
+  "version": "1.0.0",
+  "description": "This is for tutorial purpose.",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss scss/style.scss public/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClarkAlain/portfolio2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClarkAlain/portfolio2/issues"
+  },
+  "homepage": "https://github.com/ClarkAlain/portfolio2#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.10"
+  }
+}
