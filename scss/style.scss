@@ -1,3 +1,5 @@
+$font-default: 'Open Sans', sans-serif;
+
 body {
   margin: 0;
   border: 0;
@@ -5,9 +7,26 @@ body {
   background-image: url(../images/macphoto.jpeg);
   background-size: 100%;
   background-repeat: no-repeat;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-default;
 }
-.logo, .nav-right {
+
+// FONTS
+.h1, h1 {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+// COLORS
+.blue-1 {
+  color: #064e90;
+}
+.red-1 {
+  color: red;
+}
+
+// CUSTOM STYLES
+.logo,
+.nav-right {
   display: inline-block;
   width: 48%;
   text-align: center;
@@ -28,53 +47,82 @@ body {
   width: 118px;
   font-size: 18px;
 }
-.main-top {
+
+
+// .main {
+//   margin-left: 40px;
+//   margin-right: 40px;
+
+//   &-top {
+//     margin: 0;
+//     padding: 0;
+//     text-align: center;
+//     margin-top: 100px;
+//     margin-bottom: 40px;
+//   }
+//   &-center {
+//     margin: 0;
+//     padding: 0;
+//     font-family: courier;
+//     font-size: 20px;
+//     text-align: center;
+//   }
+//   &-center-top {
+//     margin: 0;
+//     padding: 0;
+//     padding-right: 480px;
+//     > h2 {
+//       margin: 0;
+//       display: inline-block;
+//       font-size: 20px;
+//       text-align: left;
+//     }
+//   }
+//   &-center-bottom {
+//     margin: 0;
+//     padding: 0;
+//     padding-right: 480px;
+//     > h2  {
+//       margin: 0;
+//       padding: 0;
+//       display: inline-block;
+//       font-size: 20px;
+//     }
+//   }
+//   &-p {
+//     margin: 0;
+//     padding: 0;
+//     text-align: center;
+//     text-align-last: inherit  ;
+//   }
+// }
+
+
+.main {
   margin: 0;
-  padding: 0;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 40px;
-}
-.main-heading {
-  font-size: 70px;
-  font-weight: bold;
-  color: #064e90;
-}
-.main-center {
-  margin: 0;
-  padding: 0;
-  font-family: courier;
-  font-size: 20px;
-  text-align: center;
-}
-.main-center-top {
-  margin: 0;
-  padding: 0;
-  padding-right: 480px;
-}
-.main-center-top> h2 {
-  margin: 0;
-  display: inline-block;
-  font-size: 20px;
+  border: 0;
+  padding:0;
   text-align: left;
-}
-.hred {
-  color: red;
-}
-.main-center-bottom {
-  margin: 0;
-  padding: 0;
-  padding-right: 480px;
-}
-.main-center-bottom> h2  {
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-  font-size: 20px;
-}
-.main-p {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  text-align-last: inherit  ;
+  font-family: courier;
+  
+  &-top {
+    font-family: $font-default;
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  p {
+    padding-left: 25px;
+  }
+  
+  .h2,
+  h2,
+  &-text {
+    margin: 0;
+    font-size: 20px;
+  }
+  .container {
+    max-width: 600px;
+    margin-top: 50px;
+  }
 }
