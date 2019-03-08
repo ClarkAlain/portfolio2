@@ -11,11 +11,14 @@ body {
   font-size: 70px;
   font-weight: bold; }
 
-.blue-1 {
-  color: #064e90; }
+h2 {
+  font-size: 26px; }
+
+.blue-1, .main-text {
+  color: #17485B; }
 
 .red-1 {
-  color: red; }
+  color: #CC0914; }
 
 .logo,
 .nav-right {
@@ -46,11 +49,40 @@ body {
     text-align: center;
     margin-top: 100px; }
   .main p {
-    padding-left: 25px; }
+    padding-left: 30px; }
   .main .h2,
   .main h2, .main-text {
-    margin: 0;
+    margin: 10px 0px 10px 0px;
     font-size: 20px; }
   .main .container {
     max-width: 600px;
     margin-top: 50px; }
+
+.middle {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #17485B; }
+
+button {
+  margin: 50px;
+  height: 60px;
+  width: 315px;
+  background-color: #17485B;
+  color: white;
+  font-weight: bold;
+  font-size: 25px; }
+
+.t200 {
+  margin-top: 200px;
+  margin-bottom: 30px; }
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
+.p18 {
+  font-size: 18px; }
+
+.h314 {
+  font-size: 14px; }

@@ -15,13 +15,16 @@ body {
   font-size: 70px;
   font-weight: bold;
 }
+h2 {
+  font-size: 26px;
+}
 
 // COLORS
-.blue-1 {
-  color: #064e90;
+.blue-1, .main-text {
+  color: #17485B;
 }
 .red-1 {
-  color: red;
+  color: #CC0914;
 }
 
 // CUSTOM STYLES
@@ -112,17 +115,48 @@ body {
   }
 
   p {
-    padding-left: 25px;
+    padding-left: 30px;
   }
   
   .h2,
   h2,
   &-text {
-    margin: 0;
+    margin: 10px 0px 10px 0px;
     font-size: 20px;
   }
   .container {
     max-width: 600px;
     margin-top: 50px;
   }
+}
+
+.middle {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #17485B;
+
+}
+button {
+  margin: 50px;
+  height: 60px;
+  width: 315px;
+  background-color: #17485B;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+.t200 {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.p18 {
+  font-size: 18px;
+}
+.h314 {
+  font-size: 14px;
 }
