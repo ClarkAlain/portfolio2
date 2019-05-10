@@ -10,24 +10,47 @@
     <title>CATportfolio</title>
 </head>
 <body>
-  <navbar>
+  <!-- <navbar class="container">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button>
     <div class="logo">
       <a class="blue-1" href="#"><b>clark alain</b></a>
     </div>
-    <div class="nav-right">
-      <ul>
-        <li class="nav-right-list">
-          <a class="blue-1" href="#">porfolio</a>
-        </li>
-        <li class="nav-right-list">
-          <a class="blue-1" href="#">about</a>
-        </li>
-        <li class="nav-right-list">
-          <a class="blue-1" href="#">contact</a>
-        </li>
-      </ul>
+    <div class="navbar-collapse collapse">   
+        <ul class="nav navbar-nav navbar-right">
+          <li class="nav-right-list">
+            <a class="blue-1" href="#">porfolio</a>
+          </li>
+          <li class="nav-right-list">
+            <a class="blue-1" href="#">about</a>
+          </li>
+          <li class="nav-right-list">
+            <a class="blue-1" href="#">contact</a>
+          </li>
+        </ul>
     </div>
-  </navbar>
+  </navbar> -->
+
+  <div class="navbar navbar-default " role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" date-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">clark alain</a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#portfolio">portfolio</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
   <main>
     <div class="main">
       <div class="main-top">
@@ -63,27 +86,29 @@
         </div>
       </div>
       <div class="middle">
-        <button>Get coffee with Clark</button>  
+        <button class="btn1">Get coffee with Clark</button>  
       </div>
       <div class="middle">
-        <a class="blue-1" href="#">See recent work &darr;</a>
+        <a class="blue-1" href="#recent-works">See recent work &darr;</a>
       </div>
     </div>
   </main>
-
+    
   <div class="container">
-    <!-- RECENT WORKS LINKS -->
     <section class="row">
+      
       <div class="col-sm-12">
         <div class="t200">
-          <div class="middle"><h2>Recent Works</h2></div>
+          <div class="middle"><a name="recent-works"></a><h2>Recent Works</h2></a></div>
         </div>
       </div>
       <div class="col-sm-4">
         <div class="thumbnail">
           <img src="./public/images/applethumb.png" alt="">
-          <p class="p18">Apple Clone Exercise</p>
+          <div>
+          <p class="p18">Apple Clone     Exercise</p>
           <h3 class="h314">Altcademy</h3>
+          </div>
         </div>
       </div>
       <div class="col-sm-4">
@@ -100,106 +125,124 @@
           <h3 class="h314">Altcademy</h3>
         </div>
       </div>
+    
     </section>
-
     <hr>
-
-    <!--  -->
-
-
-
-  <recentworks>
-    <section class="row">
-      <div class="col-sm-6">
-        <div>
-          <a href="#">&uarr; Back to Recent Work</a>
+    <recentworks>
+      <section class="row">
+        <div class="col-sm-6"><a name="portfolio"></a>
+          <div>
+            <a href="#">&uarr; Back to Recent Work</a>
+          </div>
+          <div>
+            <h3 class="white">Apple Clone Exercise</h3>
+            <p class="main-text">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. 
+            </p>
+            <a href="#">Live page</a>
+          </div>
         </div>
-        <div>
-          <h3>### Exercise</h3>
-          <p>Desctiption</p>
-          <a href="#">Live page</a>
+        <div class="col-sm-6">
+          <img src="./public/images/apple-clone.png" alt="">
         </div>
-      </div>
-      <div class="col-sm-6">
-        insert work
-      </div>
-    </section>
-  <hr>
-    <section class="row">
-      <div class="col-sm-6">
-          insert work
-      </div>
-      <div class="col-sm-6">
-        <div>
-          <a href="#">&uarr; Back to Recent Work</a>
+      </section>
+    <hr>
+      <section class="row">
+        <div class="col-sm-6">
+          <img src="./public/images/newsweek-clone.png" alt="">
         </div>
-        <div>
-          <h3>### Exercise</h3>
-          <p>Desctiption</p>
-          <a href="#">Live page</a>
+        <div class="col-sm-6">
+          <div>
+            <a href="#">&uarr; Back to Recent Work</a>
+          </div>
+          <div>
+            <h3 class="white">Newsweek Clone Exercise</h3>
+            <p class="main-text">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. 
+            </p>
+            <a href="#">Live page</a>
+          </div>
         </div>
-      </div>
-    </section>
-  <hr>
-    <section class="row">
-      <div class="col-sm-6">
-        <div>
-          <a href="#">&uarr; Back to Recent Work</a>
+      </section>
+    <hr>
+      <section class="row">
+        <div class="col-sm-6">
+          <div>
+            <a href="#">&uarr; Back to Recent Work</a>
+          </div>
+          <div>
+            <h3 class="white">AirBnB Press Clone Exercise</h3>
+            <p class="main-text">Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo consequat. 
+            </p>
+            <a href="#">Live page</a>
+          </div>
         </div>
-        <div>
-          <h3>### Exercise</h3>
-          <p>Desctiption</p>
-          <a href="#">Live page</a>
+        <div class="col-sm-6">
+          <div>
+            <img src="./public/images/airbnb-clone.png" alt="">
+          </div>
         </div>
-      </div>
-      <div class="col-sm-6">
-        insert work
-      </div>
-    </section>
-  </recentworks>
-  <hr>
-  <info>
-    <section class="row">
-      <div class="col-sm-12">
-        <div>About</div>
-      </div>
-      <div class="col-sm-6">
-        <p>
-        Having recently switched careers from
-        management roles at the Food and Beverage
-        field, lorem ipsum dolor sit amet, consectetur
-        adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud
-        exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. 
-        </p>
-      </div>
-      <div class="col-sm-6">
-        image here
-      </div>
-    </section>
-      <hr>
-    <section class="row">
-      <div class="col-sm-12">
-        <div>Contact</div>
-      </div>
-      <div class="col-sm-4">
-        <div>image</div>
-        <div>email</div>
-        <a href="#">clark_tomale@hotmail.com</a>
-      </div>
-      <div class="col-sm-4">
-        <div>image</div>
-        <div>phone</div>
-        <a href="#">+852 46432502</a>
-      </div>
-      <div class="col-sm-4">
-        <div>image</div>
-        <div>linkedin</div>
-        <a href="#">clark_tomale</a>
-      </div>
-    </section>
+      </section>
+    </recentworks>
+    <hr>
+    <info>
+      <section class="row">
+        <div class="col-sm-12">
+          <div class="middle"><h2>About</h2></div>
+        </div>
+        <div class="col-sm-6"><a name="about"></a>
+          <p class="main-text">
+          Having recently switched careers from
+          management roles at the Food and Beverage
+          field, lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud
+          exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. 
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <div class="middle"><img src="./public/images/photo.png" alt=""></div>
+          
+        </div>
+      </section>
+        <hr>
+      <section class="row">
+        <div class="col-sm-12">
+          <div class="middle"><a name="contact"><h2>Contact</h2></a></div>
+        </div>
+      </section>
+      <section class="row">
+        <div class="col-sm-4 middle">   
+            <img class="mail" src="./public/images/email.png" alt="">
+            <div>Email</div>
+            <a href="#">clark_tomale@hotmail.com</a>
+        </div>
+        <div class="col-sm-4 middle">
+            <img src="./public/images/smartphone.png" alt="">
+            <div>Phone</div>
+            <a href="">+852 4643 2502</a>
+        </div>
+        <div class="col-sm-4 middle">
+          <img src="./public/images/linkedin.png" alt="">
+          <div>LinkedIn</div>
+          <a href="#">clark_tomale</a>
+        </div>
+      </section>
     </info>
   </div>
     

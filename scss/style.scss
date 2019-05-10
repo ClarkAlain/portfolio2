@@ -26,6 +26,9 @@ h2 {
 .red-1 {
   color: #CC0914;
 }
+.white {
+  color: #A2B6BD;
+}
 
 // CUSTOM STYLES
 .logo,
@@ -49,6 +52,7 @@ h2 {
   list-style: none;
   width: 118px;
   font-size: 18px;
+  overflow: auto;
 }
 
 
@@ -107,6 +111,7 @@ h2 {
   padding:0;
   text-align: left;
   font-family: courier;
+  margin-bottom: 150px;
   
   &-top {
     font-family: $font-default;
@@ -135,9 +140,11 @@ h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
   color: #17485B;
-
+  h2 {
+    color: #A2B6BD;
+  }
 }
-button {
+.btn1 {
   margin: 50px;
   height: 60px;
   width: 315px;
@@ -156,8 +163,20 @@ hr {
 }
 .p18 {
   font-size: 18px;
-  
+  color: #17485B;
 }
 .h314 {
   font-size: 14px;
+  color: #A2B6BD;
+}
+.p18,
+.h314 {
+  margin: 10px;
+  padding: 5px;
+}
+.col-sm-6 {
+  overflow: auto;
+}
+.mail {
+  padding-top: 35px;
 }
