@@ -161,3 +161,8 @@ hr {
     font-size: 20px;
   }
 }
+
+.contact {
+  margin-bottom: 30px;
+  display: block;
+}
