@@ -149,7 +149,7 @@ hr {
 
 .footer {
   margin-bottom: 50px;
-  display: inline-block;
+  display: block;
   list-style: none;
   font-size: 18px;
   overflow: auto;
