@@ -148,6 +148,7 @@ hr {
 }
 
 .footer {
+  width: 33%;
   margin-bottom: 50px;
   display: block;
   list-style: none;
